@@ -750,7 +750,7 @@ function showproduct(prdid)
 				$('#product_list').show();
 					
 			$('#showPrdName').text(obj[0].data[0].productname);
-			$('#showBrand').text(obj[0].data[0].brandname);
+			$('#showBrand').text("Absyz");
 			$('#showPrdPrice').text(obj[0].data[0].price);
 			$('#hidPrdId').val("");
 			$('#hidPrdId').val(obj[0].data[0].productid);
