@@ -1,0 +1,6 @@
+  {
+  "name": "Absyz ecommerce app",
+  "description": "A  Java app from the Absyz",
+   "addons": ["heroku-postgresql:hobby-dev", "papertrail"],
+     "success_url": "/index.html"
+  }
