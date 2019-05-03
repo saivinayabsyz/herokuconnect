@@ -505,7 +505,7 @@ function loadProducts()
 			var obj = jQuery.parseJSON(responseText);
 			//alert(responseText);
 			//alert(obj);
-			
+			obj[0].data[i].brand_name__c = "Absyz";
   
 			//alert(obj[0].data.length);
 			//alert(obj[0].data[0].productname);
